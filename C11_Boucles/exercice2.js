@@ -10,3 +10,16 @@
 // let letters = [ 'A', 'd', 'a', '-', 'S', 'c', 'h', 'o', 'o', 'l']
  
 // Fais en sorte que ta boucle soit adaptée à tous les contenus de letters (toute taille).
+
+// let letters = [ 'A', 'd', 'a', '-', 'T', 'e', 'c', 'h']
+let letters = [ 'A', 'd', 'a', '-', 'S', 'c', 'h', 'o', 'o', 'l']
+let message = letters
+
+
+for( let i = 0; i < letters.length; i++){
+     message += letters 
+   
+}
+  console.log(letters.join(""))
+
+  

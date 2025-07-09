@@ -12,7 +12,7 @@
 
 /* //^ Boucle FOR
 
-for (let i = 0 ; i <= 99 ; i++) {
+for (let i = 0 ; i <= 99 ; i++) {  // != ou !==100 (différent de 100)
     console.log(i)
 }
 

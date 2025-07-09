@@ -19,3 +19,39 @@ if (input > 10 || input < 0) {                      // Vérifie si le nombre est
         alert(i)                                   // Affiche chaque nombre dans une alerte
     }
 }
+
+
+// correction
+
+/* let nombre = prompt('Donne moi un nombre entre 0 et 10');
+
+if (nombre >= 0 && nombre <= 10) {
+  let i = nombre;
+  while (i != -1) {
+    console.log(i);
+    i--;
+  }
+}
+else {
+  console.log('ERREUR!')
+} */
+
+//autre correction
+
+/* let nombre = Number(prompt('Donne moi un nombre entre 0 et 10'));
+
+if (isNaN(nombre)) {
+  console.log('Attention il faut saisir un nombre')
+}
+else {
+  if (nombre >= 0 && nombre <= 10) {
+    let i = nombre;
+    while (i != -1) {
+      console.log(i);
+      i--;
+    }
+  }
+  else {
+    console.log('ERREUR!')
+  }
+} */

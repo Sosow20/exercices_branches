@@ -9,11 +9,11 @@ let list = document.getElementById("myList")
 console.log(candidates[0])
 
 
-// Etape 2
-console.log(candidates[7])
+// // Etape 2
+// console.log(candidates[7])
 
-// Etape 3
-console.log(candidates)
+// // Etape 3
+// console.log(candidates)
 
 // Etape 4
 

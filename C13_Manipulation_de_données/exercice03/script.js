@@ -27,3 +27,8 @@ const ranking = data.find(data => data.ranking === 4)
 console.log(ranking)
 
 // 5. affiche l'âge moyen des candidates
+
+const sum = data.reduce((accumulator, data) => {
+    return accumulator + data.age / 10; 
+}, 0);
+console.log(sum)

@@ -38,5 +38,5 @@ main {
   align-items: flex-start;
   justify-content: center;
   align-content: center;
-  gap: 1em;
+  column-gap: 0.5em;
 }

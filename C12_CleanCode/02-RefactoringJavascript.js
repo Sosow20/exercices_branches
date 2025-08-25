@@ -20,3 +20,15 @@ function genererRapportUtilisateur(nom, age, ville, profession, estAbonne) {
   }
   return rapport;
 }
+
+let rapportUtilisateur = [
+  {nom : "Nom :"},
+  {age : "ans"},
+  {ville : "Ville :"},
+  {Profession : "Profession"},
+]
+
+function abonnement() {
+  
+  
+}
